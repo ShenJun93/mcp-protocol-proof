@@ -1,0 +1,17 @@
+{
+  "name": "mcp-protocol-proof",
+  "version": "0.1.0",
+  "description": "Tiny CLI that proves an MCP Streamable HTTP endpoint negotiates a minimum protocol version and exposes discoverable tools.",
+  "type": "module",
+  "bin": {
+    "mcp-protocol-proof": "./bin/mcp-protocol-proof.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node ./bin/mcp-protocol-proof.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.2.0"
+  },
+  "license": "MIT"
+}
